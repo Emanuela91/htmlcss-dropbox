@@ -142,7 +142,8 @@ span{
 /* Piani tipologie */
 
 #main-piani{
-    display: flex;    
+    display: flex;
+    margin-bottom: 20px;   
 }
 
 
@@ -205,3 +206,16 @@ h4{
     color: white;
     margin: 0 22px;
 }
+
+/* tabella team */
+
+
+#contatta{
+    background-color: blue;
+    padding: 10px 20px;
+    width: 55%;
+    text-align: center;
+    color: white;
+    margin: 0 22px;
+}
+
