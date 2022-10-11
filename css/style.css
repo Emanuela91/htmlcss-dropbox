@@ -50,7 +50,7 @@ a{
 }
 
 
-/* Parte superiore, sezione Hero */
+/* Parte inferiore, sezione Hero */
 #hero{
     min-height: 80px;
     margin-top: 70px; 
@@ -150,6 +150,7 @@ span{
 .colonna{
     border: 1px solid gray;
     margin: 0 10px;
+    height: 100%;
     /* debug */
     /* background-color: red; */
 }
@@ -160,10 +161,18 @@ span{
     border-bottom: 1px solid gray;
 }
 
+#user i{
+    padding-right: 3px;
+}
+
 h3{
     padding-top: 20px;
     padding-bottom: 10px; 
     padding-left: 10px;   
+}
+
+#mese{
+    color: rgb(159, 150, 150);
 }
 
 ul{
@@ -178,6 +187,7 @@ li{
 
 li i{
     padding-bottom: 5px;
+    padding-right: 3px;
 }
 
 #or{
@@ -190,6 +200,12 @@ li i{
     color: blue;
     text-decoration: underline;
     padding: 0;
+}
+
+hr{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 30%;
 }
 
 h4{
@@ -208,14 +224,104 @@ h4{
 }
 
 /* tabella team */
+#team{
+    display: flex;
+}
 
+#col1{
+    width: 60%;
+}
+
+#col2{
+    width: 40%;
+}
+
+#col1 span{
+    padding-left: 10px;
+}
+
+#col1 p{
+    padding-top: 50px;
+    padding-left: 10px;
+}
 
 #contatta{
     background-color: blue;
-    padding: 10px 20px;
-    width: 55%;
+    padding: 10px 20px;    
     text-align: center;
     color: white;
-    margin: 0 22px;
+    margin: 30px 50px;
+    display: inline-block;
 }
 
+
+/* Partner Dropbox */
+#trova{
+    display: flex;
+    padding-top: 60px;
+}
+
+#partner{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    padding: 0 120px;
+}
+
+#trova img{
+    width: 130%;
+}
+
+#partner h3{
+    padding: 0%;
+}
+
+#partner a{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#partner p{
+    margin: 10px 0;
+}
+
+
+
+/* Dropbox Business */
+.strumento{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.strumento h2{
+    padding-top: 60px;
+}
+
+.operazioni{
+    position: relative;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.operazioni img{
+    width: 100%;
+}
+
+.operazioni h3{
+    padding: 10px 0;
+}
+
+
+
+/* Scopri di più sui clienti */
+#clienti h2{
+    margin-top: 60px;
+}
+
+#clienti a{
+    font-size: 10px;
+    color: blue;
+    text-decoration: underline;
+    padding: 0;
+}
