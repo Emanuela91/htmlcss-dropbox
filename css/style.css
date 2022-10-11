@@ -107,15 +107,21 @@ p{
 /* Inizio Main */
 
 /* Trova il piano per te  */
-#main{
+main{
     margin: 0 250px;
     padding-top: 30px;
-    background-color: blueviolet;
+    /* debug */
+    /* background-color: blueviolet; */
+}
+
+.fatturazione{
+    padding-left: 10px;
+    padding-bottom: 50px;
 }
 
 h2{
     font-size: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 #checked{
@@ -126,6 +132,7 @@ span i{
     color: rgb(196, 193, 193);
     padding-right: 10px;
 }
+
 span{
     padding-right: 30px;
     padding-bottom: 25px;
@@ -134,6 +141,67 @@ span{
 
 /* Piani tipologie */
 
+#main-piani{
+    display: flex;    
+}
+
+
 .colonna{
-    background-color: red;
+    border: 1px solid gray;
+    margin: 0 10px;
+    /* debug */
+    /* background-color: red; */
+}
+
+#user{
+    text-align: center;
+    padding: 5px 0;    
+    border-bottom: 1px solid gray;
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    padding-left: 10px;   
+}
+
+ul{
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+li i{
+    padding-bottom: 5px;
+}
+
+#or{
+    padding: 25px 0;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#buy{
+    color: blue;
+    text-decoration: underline;
+    padding: 0;
+}
+
+h4{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#button-prova{
+    background-color: blue;
+    padding: 10px 20px;
+    width: 55%;
+    text-align: center;
+    color: white;
+    margin: 0 22px;
 }
