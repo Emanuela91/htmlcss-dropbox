@@ -361,11 +361,12 @@ h4{
 
 .carusel div{
     width: calc(100% / 2);
+    height: calc(100% / 2);
     text-align: center;
 }
 
 svg{
-    padding-top: 55px;
+    padding-top: 35px;
     width: 70px;
     height: 105px;
 }
@@ -377,6 +378,7 @@ svg{
 /* Immagini carosello sinistra */
 #designit{
     background-color: #b4dc19;
+    border: 10px solid #cbe36f;
 }
 
 #asu{
@@ -385,7 +387,13 @@ svg{
 
 /* sistemare svg */
 #florida{
-    background-color: #14c8eb;
+    background-color: #14c8eb;   
+}
+
+#florida svg{
+    width: 90%;
+    height: 65%;
+    padding-top: 50px;
 }
 
 #topps{
