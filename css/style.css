@@ -143,14 +143,15 @@ span{
 
 #main-piani{
     display: flex;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
+    height: 100%; 
 }
 
 
 .colonna{
     border: 1px solid gray;
     margin: 0 10px;
-    height: 100%;
+    width: calc(100% / 3);
     /* debug */
     /* background-color: red; */
 }
@@ -190,6 +191,14 @@ li i{
     padding-right: 3px;
 }
 
+.colonna a{
+    display: inline-block;
+}
+
+#a{
+    text-align: center;
+}
+
 #or{
     padding: 25px 0;
     margin-top: 10px;
@@ -217,13 +226,16 @@ h4{
 #button-prova{
     background-color: blue;
     padding: 10px 20px;
-    width: 55%;
     text-align: center;
     color: white;
-    margin: 0 22px;
 }
 
 /* tabella team */
+.colonna-team{
+    border: 1px solid gray;
+    margin: 0 10px;
+}
+
 #team{
     display: flex;
 }
@@ -440,6 +452,7 @@ svg{
 #azienda a{
     width: 30%;
     text-align: center;
+    display: inline-block;
     margin-bottom: 25px;     
     padding: 5px 0;
     background-color: white;
