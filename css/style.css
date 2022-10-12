@@ -66,9 +66,9 @@ h1{
 }
 
 #prova{
-    display: flex;
-    justify-content: center;
+    display: flex;    
     padding-top: 30px;
+    width: 50%;
 }
 
 #text{
@@ -98,8 +98,11 @@ p{
 }
 
 #prova img{
-    width: 130%;
+    width: 50%;
+    position: absolute;
     z-index: 2;
+    right: 20px;
+    top: 300px;
 }
 
 
@@ -115,6 +118,7 @@ main{
 }
 
 .fatturazione{
+    padding-top: 100px;
     padding-left: 10px;
     padding-bottom: 50px;
 }
@@ -128,12 +132,12 @@ h2{
     color: blue;    
 }
 
-span i{
+.fatturazione i{
     color: rgb(196, 193, 193);
     padding-right: 10px;
 }
 
-span{
+.fatturazione a{
     padding-right: 30px;
     padding-bottom: 25px;
 }
