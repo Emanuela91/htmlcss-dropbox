@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,16 +7,16 @@
 
 /* Header */
 /* Parte superiore, sezione Top*/
-header{
+header {
     background-color: #b4c8e1;
 }
 
-#top{
+#top {
     background-color: white;
     width: 100%;
     height: 70px;
     display: flex;
-    padding: 0 10px ;
+    padding: 0 10px;
     position: fixed;
     justify-content: space-between;
     z-index: 10;
@@ -26,23 +26,23 @@ header{
     /* min-height: 50px; */
 }
 
-#menu{
+#menu {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-#menu img{
+#menu img {
     padding-right: 25px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-    padding: 25px;    
+    padding: 25px;
 }
 
-.button{
+.button {
     background-color: blue;
     color: white;
     border-style: none;
@@ -51,9 +51,9 @@ a{
 
 
 /* Parte inferiore, sezione Hero */
-#hero{
+#hero {
     min-height: 80px;
-    margin-top: 70px; 
+    margin-top: 70px;
     margin-left: 250px;
     margin-right: 250px;
     padding-top: 30px;
@@ -61,31 +61,31 @@ a{
     /* background-color: blue; */
 }
 
-h1{
+h1 {
     font-size: 60px;
 }
 
-#prova{
-    display: flex;    
+#prova {
+    display: flex;
     padding-top: 30px;
     width: 50%;
 }
 
-#text{
+#text {
     display: flex;
-    flex-direction: column;    
-   
+    flex-direction: column;
+
 }
 
-p{
+p {
     padding-bottom: 25px;
 }
 
-.text-button{
+.text-button {
     padding: 25px 0;
 }
 
-.text-button-color{
+.text-button-color {
     background-color: blue;
     padding: 10px 10px;
     width: 55%;
@@ -93,11 +93,11 @@ p{
     color: white;
 }
 
-#arrow{
+#arrow {
     font-size: 30px;
 }
 
-#prova img{
+#prova img {
     width: 50%;
     position: absolute;
     z-index: 2;
@@ -110,34 +110,34 @@ p{
 /* Inizio Main */
 
 /* Trova il piano per te  */
-main{
+main {
     margin: 0 250px;
     padding-top: 30px;
     /* debug */
     /* background-color: blueviolet; */
 }
 
-.fatturazione{
+.fatturazione {
     padding-top: 100px;
     padding-left: 10px;
     padding-bottom: 50px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     padding-bottom: 60px;
 }
 
-#checked{
-    color: blue;    
+#checked {
+    color: blue;
 }
 
-.fatturazione i{
+.fatturazione i {
     color: rgb(196, 193, 193);
     padding-right: 10px;
 }
 
-.fatturazione a{
+.fatturazione a {
     padding-right: 30px;
     padding-bottom: 25px;
 }
@@ -145,14 +145,14 @@ h2{
 
 /* Piani tipologie */
 
-#main-piani{
+#main-piani {
     display: flex;
-    margin-bottom: 20px;  
-    height: 100%; 
+    margin-bottom: 20px;
+    height: 100%;
 }
 
 
-.colonna{
+.colonna {
     border: 1px solid gray;
     margin: 0 10px;
     width: calc(100% / 3);
@@ -160,74 +160,79 @@ h2{
     /* background-color: red; */
 }
 
-#user{
+#user {
     text-align: center;
-    padding: 5px 0;    
+    padding: 5px 0;
     border-bottom: 1px solid gray;
 }
 
-#user i{
+#user i {
     padding-right: 3px;
 }
 
-h3{
+h3 {
     padding-top: 20px;
-    padding-bottom: 10px; 
-    padding-left: 10px;   
-}
-
-#mese{
-    color: rgb(159, 150, 150);
-}
-
-ul{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-left: 10px;
 }
 
-li{
+#mese {
+    color: rgb(159, 150, 150);
+}
+
+ul#type {
+    min-height: 100px;
+}
+
+ul {
+    padding-bottom: 50px;
+    padding-left: 10px;
+    min-height: 230px;
+}
+
+li {
     list-style: none;
     padding-bottom: 10px;
 }
 
-li i{
+li i {
     padding-bottom: 5px;
     padding-right: 3px;
 }
 
-.colonna a{
+.colonna a {
     display: inline-block;
 }
 
-#a{
+#a {
     text-align: center;
 }
 
-#or{
+#or {
     padding: 25px 0;
     margin-top: 10px;
     padding-left: 10px;
 }
 
-#buy{
+#buy {
     color: blue;
     text-decoration: underline;
     padding: 0;
 }
 
-hr{
+hr {
     margin-top: 30px;
     margin-left: 10px;
     width: 30%;
 }
 
-h4{
+h4 {
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
 
-#button-prova{
+#button-prova {
     background-color: blue;
     padding: 10px 20px;
     text-align: center;
@@ -235,35 +240,35 @@ h4{
 }
 
 /* tabella team */
-.colonna-team{
+.colonna-team {
     border: 1px solid gray;
     margin: 0 10px;
 }
 
-#team{
+#team {
     display: flex;
 }
 
-#col1{
+#col1 {
     width: 60%;
 }
 
-#col2{
+#col2 {
     width: 40%;
 }
 
-#col1 span{
+#col1 span {
     padding-left: 10px;
 }
 
-#col1 p{
+#col1 p {
     padding-top: 50px;
     padding-left: 10px;
 }
 
-#contatta{
+#contatta {
     background-color: blue;
-    padding: 10px 20px;    
+    padding: 10px 20px;
     text-align: center;
     color: white;
     margin: 30px 50px;
@@ -272,70 +277,71 @@ h4{
 
 
 /* Partner Dropbox */
-#trova{
+#trova {
     display: flex;
     padding-top: 60px;
 }
 
-#partner{
+#partner {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     justify-content: center;
     padding: 0 120px;
 }
 
-#trova img{
+#trova img {
     width: 130%;
 }
 
-#partner h3{
+#partner h3 {
     padding: 0%;
 }
 
-#partner a{
+#partner a {
     border: 1px solid gray;
     padding: 10px;
 }
 
-#partner p{
+#partner p {
     margin: 10px 0;
 }
 
 
 
 /* Dropbox Business */
-.strumento{
+.strumento {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
 }
 
-.strumento h2{
+.strumento h2 {
     padding-top: 60px;
+    width: 100%;
 }
 
-.operazioni{
+.operazioni {
     position: relative;
     width: calc(100% / 3);
     padding: 10px;
 }
 
-.operazioni img{
+.operazioni img {
     width: 100%;
 }
 
-.operazioni h3{
+.operazioni h3 {
     padding: 10px 0;
 }
 
 
 
 /* Scopri di più sui clienti */
-#clienti h2{
+#clienti h2 {
     margin-top: 60px;
 }
 
-#clienti a{
+#clienti a {
     font-size: 10px;
     color: blue;
     text-decoration: underline;
@@ -345,65 +351,65 @@ h4{
 
 /* Inizio Footer */
 /* Generali Carosello */
-.container{
+.container {
     width: 100%;
     display: flex;
     max-height: 500px;
     margin-top: 60px;
 }
 
-.carusel{
+.carusel {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     /* height: 50%; */
 }
 
-.carusel div{
+.carusel div {
     width: calc(100% / 2);
     height: calc(100% / 2);
     text-align: center;
 }
 
-svg{
+svg {
     padding-top: 35px;
     width: 70px;
     height: 105px;
 }
 
-.carusel svg{
+.carusel svg {
     filter: invert(1);
 }
 
 /* Immagini carosello sinistra */
-#designit{
+#designit {
     background-color: #b4dc19;
     border: 10px solid #cbe36f;
 }
 
-#asu{
+#asu {
     background-color: #9b0032;
 }
 
 /* sistemare svg */
-#florida{
-    background-color: #14c8eb;   
+#florida {
+    background-color: #14c8eb;
 }
 
-#florida svg{
+#florida svg {
     width: 90%;
     height: 65%;
     padding-top: 50px;
 }
 
-#topps{
+#topps {
     background-color: #fa551e;
 }
 
 /* Parte centrale Carosello */
-#carusel-img{
-    width: 50%;   
-    height: 50%; 
+#carusel-img {
+    width: 50%;
+    height: 50%;
     font-size: 10px;
     padding: 0 20px;
     padding-bottom: 60px;
@@ -411,74 +417,74 @@ svg{
     overflow-y: scroll;
 }
 
-#carusel-img svg{
+#carusel-img svg {
     padding: 0%;
     width: 150px;
 }
 
-#carusel-img p{
+#carusel-img p {
     padding-top: 20px;
 }
 
-#carusel-img hr{
+#carusel-img hr {
     margin-top: 5px;
     margin-left: 0%;
 }
 
 /* Parte destra carosello */
-#bicycle{
+#bicycle {
     background-color: #9b0032;
 }
 
-#hearst{
+#hearst {
     background-color: #b4c8e1;
 }
 
-#planet{
+#planet {
     background-color: #283750;
 }
 
-#clear{
+#clear {
     background-color: #fad24b;
 }
 
 
 /* Dropbox in azienda */
-#azienda{
+#azienda {
     background-color: #7da6d7;
     padding: 60px 0;
 }
 
-#azienda div{
+#azienda div {
     margin: 0 250px;
     display: flex;
     align-items: center;
 }
 
 
-#azienda h2{
+#azienda h2 {
     width: 70%;
     padding: 0;
 }
 
-#azienda a{
+#azienda a {
     width: 30%;
     text-align: center;
     display: inline-block;
-    margin-bottom: 25px;     
+    margin-bottom: 25px;
     padding: 5px 0;
     background-color: white;
     /* margin-top: 13px; */
-} 
+}
 
 
 /* Domande */
-#domande{
+#domande {
     margin: 0 250px;
     padding: 60px 0;
 }
 
-#faq1{
+#faq1 {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
@@ -486,7 +492,7 @@ svg{
     border-top: 1px solid black;
 }
 
-.faq{
+.faq {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
@@ -495,27 +501,27 @@ svg{
 
 
 /* Footer bottom */
-#footer-bottom{
+#footer-bottom {
     background-color: black;
 }
 
-#fb-container{
+#fb-container {
     margin: 0 150px;
     padding: 30px 0;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.footer-menu{
+.footer-menu {
     display: flex;
     justify-content: space-between;
     color: white;
 }
 
-.footer-menu h3{
+.footer-menu h3 {
     padding-bottom: 20px;
 }
 
-.footer-menu hr{
+.footer-menu hr {
     margin-bottom: 30px;
 }
